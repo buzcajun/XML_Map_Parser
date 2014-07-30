@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>	
+	<!-- sample date -->
+	<vendor>
+		<company>State information</company>
+		<program>Program</program>
+		<city>City</city>
+		<state>AA</state>
+	</vendor>
+	<vendor>
+		<company>Boeing Company </company>
+		<program>SLS</program>
+		<city>Cleveland</city> <!--  -->
+		<state>OH</state>
+	</vendor>
+	<vendor>
+		<company>Boeing Company </company>
+		<program>SLS</program>
+		<city>Huntington Beach</city> <!--  -->
+		<state>CA</state>
+	</vendor>
+	<vendor>
+		<company>3SL, Inc.</company>
+		<program>GSDO</program>
+		<city>Huntsville</city> <!--    -->
+		<state>AL</state>
+	</vendor>
+	<vendor>
+		<company>University Of Alabama In Huntsville</company>
+		<program>GSDO</program>
+		<city>Huntsville</city>  <!--  city? -->
+		<state>AL</state>
+	</vendor>
+	<vendor>
+		<company>Tb&amp;a Hospital Television, Inc.</company>
+		<program>GSDO</program>
+		<city>Amherst</city>
+		<state>NY</state>
+	</vendor>
+	
+	<vendor>
+		<company>Boeing Company </company>
+		<program>SLS</program>
+		<city>Huntsville</city>
+		<state>AL</state>
+	</vendor>
+	<vendor>
+		<company>NASA IV &amp; V Facility </company>
+		<program>SLS</program>
+		<city>Fairmont</city>
+		<state>WV</state>
+	</vendor>
+	<vendor>
+		<company>NASA IV&amp;V Facility </company>
+		<program>GSDO</program>
+		<city>Fairmont</city>
+		<state>WV</state>
+	</vendor>
+	<vendor>
+		<company>NASA IV&amp;V Facility </company>
+		<program>ORION</program>
+		<city>Fairmont</city>
+		<state>WV</state>
+	</vendor>
+	<vendor>
+		<company>L&amp;H Industries </company>
+		<program>GSDO</program>
+		<city>Gillette</city>
+		<state>WY</state>
+	</vendor>
+	<vendor>
+		<company>Boeing Company </company>
+		<program>SLS</program>
+		<city>Titusville</city>
+		<state>FL</state>
+	</vendor>
+	<vendor>
+		<company>Boeing Company </company>
+		<program>SLS</program>
+		<city>New Orleans</city>
+		<state>LA</state>
+	</vendor>
+	<vendor>
+		<company>Boeing Company </company>
+		<program>SLS</program>
+		<city>St. Louis</city>
+		<state>MO</state>
+	</vendor>
+	<vendor>
+		<company>Boeing Company </company>
+		<program>SLS</program>
+		<city>Cleveland</city>
+		<state>OH</state>
+	</vendor>
+	<vendor>
+		<company>Boeing Company </company>
+		<program>SLS</program>
+		<city>Huntington Beach</city>
+		<state>CA</state>
+	</vendor>
+	<vendor>
+		<company>3SL, Inc.</company>
+		<program>GSDO</program>
+		<city>Huntsville</city>
+		<state>AL</state>
+	</vendor>
+	<vendor>
+		<company>University Of Alabama In Huntsville</company>
+		<program>GSDO</program>
+		<city>Huntsville</city>
+		<state>AL</state>
+	</vendor>
+	<vendor>
+		<company>Krider, Edmund</company>
+		<program>GSDO</program>
+		<city>Tucson</city>
+		<state>AZ</state>
+	</vendor>
+	<vendor>
+		<company>Thermax/Cdt, Inc.</company>
+		<program>GSDO</program>
+		<city>Nogales</city>
+		<state>AZ</state>
+	</vendor>
+	<vendor>
+		<company>University Of Arizona</company>
+		<program>GSDO</program>
+		<city>Tucson</city>
+		<state>AZ</state>
+	</vendor>
+	<vendor>
+		<company>Blue Tech Inc.</company>
+		<program>GSDO</program>
+		<city>San Diego</city>
+		<state>CA</state>
+	</vendor>
+	<vendor>
+		<company>Dynamic Systems, Inc.</company>
+		<program>GSDO</program>
+		<city>El Segundo</city>
+		<state>CA</state>
+	</vendor>
+	<vendor>
+		<company>En Pointe Gov Inc</company>
+		<program>GSDO</program>
+		<city>Gardena</city>
+		<state>CA</state>
+	</vendor>
+	<vendor>
+		<company>G.C. Micro Corporation</company>
+		<program>GSDO</program>
+		<city>Petaluma</city>
+		<state>CA</state>
+	</vendor>
+	
+	<vendor>
+		<company>Ortus Solutions Corp.</company>
+		<program>GSDO</program>
+		<city>Rancho Cucamonga</city>
+		<state>CA</state>
+	</vendor>
+	<vendor>
+		<company>Real-time Innovations, Inc.</company>
+		<program>GSDO</program>
+		<city>Sunnyvale</city>
+		<state>CA</state>
+	</vendor>
+	<vendor>
+		<company>Space &amp; Missile Systems Center </company>
+		<program>GSDO</program>
+		<city>El Segundo</city>
+		<state>CA</state>
+	</vendor>
+	<vendor>
+		<company>Specialised Imaging Inc</company>
+		<program>GSDO</program>
+		<city>Temecula</city>
+		<state>CA</state>
+	</vendor>
+	<vendor>
+		<company>Spirent Federal Systems Inc.</company>
+		<program>GSDO</program>
+		<city>Yorba Linda</city>
+		<state>CA</state>
+	</vendor>
+	</data>
