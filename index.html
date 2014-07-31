@@ -27,6 +27,13 @@ td {
 	background-color: #222;	
 }
 
+#mapdiv {
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin-right: 30px;
+}
+
 </style>
 <link rel="stylesheet" type="text/css" href="xmlfiltering_copy.css">
 </head>
@@ -34,6 +41,12 @@ td {
 <h1>Filtered XML Copy</h1>
 <p><strong>Demo:</strong>
   <!-- start of code -->
+
+<script type="text/javascript" src="http://cdn.amcharts.com/lib/3/ammap.js"></script>
+<script type="text/javascript" src="http://cdn.amcharts.com/lib/3/maps/js/usaLow.js"></script>
+<script src="map.js"></script>
+<div id="mapdiv"></div>
+
 <div id="criteria"> Selection:
   <input type='radio' name='select1' value="" checked="CHECKED" onChange="changeFilter(this.value);">
   ALL
@@ -65,7 +78,7 @@ td {
   </tr>
 </table>
 </p>
-<script src="xmlfiltering_copy.js"></script>
+<script src="xmlfilerting_copy.js"></script>
 <!-- end of code -->
 
 </body>
