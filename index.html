@@ -53,11 +53,30 @@ td {
 <link rel="stylesheet" type="text/css" href="xmlfiltering_copy.css">
 </head>
 <body>
-<h1>Filtered XML Copy</h1>
+<h1>Filtered XML = Map Merge</h1>
 <p><strong>Demo:</strong>
   <!-- start of code -->
+
+<script type="text/javascript" src="http://cdn.amcharts.com/lib/3/ammap.js"></script>
+<script type="text/javascript" src="http://cdn.amcharts.com/lib/3/maps/js/usaLow.js"></script>
+<script src="map.js"></script> <!-- updated version from Martynas  -->
+
+<div id="mapdiv"></div> <!-- this is the map holder -->
+
+<div id="tableFrame">
+<table id='datatable' width="100%" cellpadding="6" cellspacing="1">
+  <tr id='tableheader'>
+    <th>Program</th>
+    <th>Company</th>
+    <th>City</th>
+    <th>State</th>
+  </tr>
+</table>
+</div>
+<p>
+<div id="radioButtons">
 <div id="criteria"> Selection:
-  <input type='radio' name='select1' value="" checked="CHECKED" onChange="changeFilter(this.value);">
+  <input type='radio' name='select1' value="AA" checked="CHECKED" onChange="changeFilter(this.value);">
   ALL
   <input type='radio' name="select1" value="AL" onChange="changeFilter(this.value);">
   AL
@@ -77,17 +96,9 @@ td {
   <input type='radio' name='select1' value="ORION" onChange="changeProgram(this.value);">
   ORION
    </div>
-<p>
-<table id='datatable' width="90%" cellpadding="7" cellspacing="1">
-  <tr id='tableheader'>
-    <th>Program</th>
-    <th>Company</th>
-    <th>City</th>
-    <th>State</th>
-  </tr>
-</table>
+</div> <!-- end radio buttons  -->
 </p>
-<script src="xmlfiltering_copy.js"></script>
+<script src="xmlfilerting_copy.js"></script>
 <!-- end of code -->
 
 </body>
