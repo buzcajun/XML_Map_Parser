@@ -5,10 +5,12 @@ var $map = AmCharts.makeChart("mapdiv", {
 		map: "usaLow",
 		areas: []
 	},
+  colorSteps: 10,
   dragMap: false,
 	areasSettings: {
 		autoZoom: false,
-    outlineThickness: 2
+    outlineThickness: 2,
+    balloonText: "[[title]] ([[value]])"
 	},
   zoomControl: {
     panControlEnabled: false,

@@ -3,6 +3,7 @@
 var $state="";	//globals as we have callbacks that need this data.
 var $xmldata="";	
 var $states=[]; // we'll use this array to keep which states are available in the loaded data
+var $counts={}; // we'll store company counts per-state here
 
 $(document).ready(function(){
 	$.ajax({							//get the XML data
@@ -28,8 +29,10 @@ function loadTable(data, updateMapData){
 	if (undefined == updateMapData)
 		updateMapData = true;
 	$xmldata=data;					//set our global XML variable to the data from the callback for re-use later.
-	if (updateMapData)
+	if (updateMapData) {
 		$states=[]; // reset states array
+		$counts={}; // reset company counts
+	}
 	$(data).find("vendor state:contains('"+$state+"')").parent().each(function(){ //find each row in the XML with the state we want to show.
 		
 		var $this=$(this);							//cache selector 
@@ -41,8 +44,13 @@ function loadTable(data, updateMapData){
 		$("#datatable").append("<tr class='datarow'><td>"+$program+"</td><td>"+$company+"</td><td>"+$city+"</td><td>"+$state+"</td></tr>"); //output table row
 		
 		// add state
-		if ( updateMapData && -1 == $.inArray($state, $states) )
+		if ( updateMapData && -1 == $.inArray($state, $states) ) {
 			$states.push($state);
+			$counts[$state] = 0;
+		}
+		if ( updateMapData ) {
+			$counts[$state] += 1;
+		}
 	});	
 	zebraStripe();
 	if ( updateMapData )
@@ -69,7 +77,7 @@ function zebraStripe(){
 function updateMap(){
 	$map.dataProvider.areas = [];
 	for(var $x in $states) {
-		$map.dataProvider.areas.push({ id: "US-" + $states[$x], selectable: true });
+		$map.dataProvider.areas.push({ id: "US-" + $states[$x], selectable: true, value: $counts[$states[$x]] });
 	}
 	$map.validateData();
 }
